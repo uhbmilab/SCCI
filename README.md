@@ -61,7 +61,7 @@ EEG
 
 └── RKF [28 x X]
 
-EEG data collected with 28 channels following the modified 10-20 international standard arrangement.
+32 EEG channels were positioned according to a modified 10-20 international standard arrangement. Channels TP9, TP10, PO9, and PO10 were excluded from the cap and repurposed for electrooculography (EOG) to capture eye movements and blinks.
 
 ### Lumbar:
 
