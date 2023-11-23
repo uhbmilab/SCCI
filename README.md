@@ -29,7 +29,7 @@ NIS005
 
 ├── Subject Code
 
-├── ICSpace
+├── EEG
 
 ├── Lumbar
 
@@ -44,7 +44,24 @@ In this data structure, 10 healthy subjects (NIS) perform specific movements, in
 
 An illustration of the experiment with a participant performing knee flexion:
 
-![Media1 (2)](https://github.com/uhbmilab/SCCI/assets/151566358/5af9f8c1-13d5-432f-b24b-2cad9c91781b)
+![Media1 (2)](https://github.com/uhbmilab/SCCI/assets/151566358/7107957e-c8a7-45a5-8428-dcaac982b5b1)
+
+
+### EEG:
+
+EEG
+
+├── Rest 
+
+├── LPF [28 x X]
+
+├── RPF [28 x X]
+
+├── LKF [28 x X]
+
+└── RKF [28 x X]
+
+EEG data collected with 28 channels following the modified 10-20 international standard arrangement.
 
 ### Lumbar:
 
@@ -62,7 +79,7 @@ Lumbar
 
 Fifteen electrodes are positioned on the thoracic and lumbar sections of the spine (refer to the picture) for specified movements (RPF, LPF, RKF, and LKF).
 
-![Pic4](https://github.com/uhbmilab/SCCI/assets/151566358/4754dfc1-299d-4d30-afd8-cf0f71508c91)
+![Pic4](https://github.com/uhbmilab/SCCI/assets/151566358/07f03267-a87b-4cae-b779-fda7578e1d16)
 
 The Lumbar section is a matrix of 15 by X for movement tasks performed in five blocks of five repetitions, totaling 25 receptions per movement (e.g., 15x16000 for RPF).
 
@@ -82,7 +99,7 @@ LumbNoise
 
 Four sensors as the reference for noise represented in a matrix of the size 4 by X (e.g., 4x16000 for RPF).
 
-![Pic2222](https://github.com/uhbmilab/SCCI/assets/151566358/c4b0acbb-b453-4c67-80c2-044d73589628)
+![Pic2222](https://github.com/uhbmilab/SCCI/assets/151566358/3515f780-7019-4a1a-bb93-c53661221a4d)
 
 
 ### EMG:
@@ -103,7 +120,7 @@ EMG
 
 EMG sensor placement includes the left and right rectus femoris (RF), the semitendinosus portion of the medial hamstrings (MH), the tibialis anterior (TA), the gastrocnemius (MG), and the lateral aspect of soleus (SOL) muscles.
 
-![Pic5](https://github.com/uhbmilab/SCCI/assets/151566358/4773433f-c760-4840-821d-c3b0f03824ba)
+![Pic5](https://github.com/uhbmilab/SCCI/assets/151566358/4b81ce5a-5cd9-46d3-a711-b487d90d5aae)
 
 
 ### Srate:
